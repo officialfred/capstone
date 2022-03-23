@@ -199,7 +199,7 @@ map.on('load', function() {
       'circle-radius': ["/",
         ['number', ['get', 'wifi']],
           5],
-      'circle-opacity': 0.3,
+      'circle-opacity': 0.4,
       'circle-color': "#b80000"
 
 
