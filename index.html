@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Oakland Select Indicators</title>
+
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+  <link href="css/styles.css" rel="stylesheet" >
+
+</head>
+
+<body>
+  <div class='container'>
+    <div class='sidebar'>
+      <button class="button-79" id='white-percentage' role="button">Percentage White Population</button>
+      <button class="button-79" id='black-percentage' role="button">Percentage Black Population</button>
+      <button class="button-79" id='asian-percentage' role="button">Percentage Asian Population</button>
+      <button class="button-79" id='white-change' role="button">White Population Percentage Change</button>
+      <button class="button-79" id='black-change' role="button">Black Population Percentage Change</button>
+
+      <div id='sidebar-content-area'>
+      </div>
+    </div>
+    <div id='mapContainer'>
+    <!-- this is where mapboxGL will insert the map -->
+    </div>
+  </div>
+  <!-- your content here... -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+  <script src="/js/scripts.js"></script>
+</body>
+</html>
